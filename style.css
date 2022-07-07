@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -22,9 +25,69 @@ h1 {
 #explanation {
     margin: auto;
     font-size: 15px;
-    color: #57585a;
-    max-width: 1000px;
+    color: #385065;
+    max-width: 980px;
     text-align: center;
 }
 
 /* persone */
+
+/* container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.container>div {
+    padding: 30px;
+    width: calc(100% / 3 - 15px);
+    background-color: #0f0e17;
+    margin-right: 15px;
+    padding: 0;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+
+
+
+}
+
+/* singoli */
+.presentaion {
+    width: fit-content;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #f2f3f7;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+h3 {
+    font-size: 0.8rem;
+    color: #fef1e1;
+    padding-top: 10px;
+}
+
+p {
+    font-size: 0.8rem;
+    color: #13bae5;
+    padding-top: 10px;
+}
+
+img {
+    width: 90px;
+    padding-right: 10px;
+}
