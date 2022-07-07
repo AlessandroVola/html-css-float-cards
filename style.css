@@ -4,6 +4,27 @@
     padding: 0px;
 }
 
-body {
-    font-family: sans-serif;
+
+
+
+/* titolo */
+h1 {
+    color: #e53170;
+    text-align: center;
+    padding: 30px;
+    font-weight: 900;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+/* presentazione */
+#explanation {
+    margin: auto;
+    font-size: 15px;
+    color: #57585a;
+    max-width: 1000px;
+    text-align: center;
+}
+
+/* persone */
