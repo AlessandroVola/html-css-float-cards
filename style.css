@@ -22,10 +22,10 @@ h1 {
 
 /* presentazione */
 #explanation {
-    margin: auto;
+    margin: 0 auto;
     font-size: 15px;
     color: #385065;
-    max-width: 980px;
+    max-width: 1000px;
     text-align: center;
 }
 
@@ -46,6 +46,7 @@ h1 {
     padding: 0;
     margin-top: 40px;
     border-radius: 5px;
+    box-shadow: 2px 2px 10px #333;
 }
 
 .clearfix::after {
@@ -56,14 +57,13 @@ h1 {
 
 .float-left {
     float: left;
-
-
-
 }
 
 /* singoli */
 .presentaion {
     width: fit-content;
+    float: left;
+    line-height: 1.2rem;
 }
 
 h2 {
@@ -78,15 +78,18 @@ h3 {
     font-size: 0.8rem;
     color: #fef1e1;
     padding-top: 10px;
+    font-family: sans-serif;
 }
 
 p {
     font-size: 0.8rem;
-    color: #13bae5;
+    color: #3f88b4;
     padding-top: 10px;
+    font-family: sans-serif;
 }
 
+
 img {
-    width: 90px;
+    width: 110px;
     padding-right: 10px;
 }
