@@ -92,4 +92,5 @@ p {
 img {
     width: 110px;
     padding-right: 10px;
+    float: left;
 }
