@@ -60,17 +60,19 @@ h1 {
 }
 
 /* singoli */
-.presentaion {
+.presentation {
     width: fit-content;
     float: left;
     line-height: 1.2rem;
+    float: left;
+
 }
 
 h2 {
     font-size: 1rem;
     color: #f2f3f7;
     padding-top: 5px;
-    padding-left: 5px;
+
 
 }
 
